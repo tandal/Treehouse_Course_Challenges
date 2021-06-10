@@ -11,4 +11,4 @@ const secondsPerDay = secsPerMin * minsPerHour * hoursPerDay;
 console.log(`There are ${secondsPerDay} seconds in a day.`);
 
 const yearsAliveInSeconds = secondsPerDay * daysPerYear *currentAge;
-console.log(`I've been alive for more than ${yearsAliveInSeconds} seconds!`)
+console.log(`I've been alive for more than ${yearsAliveInSeconds} seconds!`);
