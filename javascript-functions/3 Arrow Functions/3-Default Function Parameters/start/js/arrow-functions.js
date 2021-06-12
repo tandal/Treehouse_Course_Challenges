@@ -3,7 +3,7 @@ const getRandomNumber = (upper) => {
   return randomNumber;
 };
 
-function getArea(width, length, unit) {
+function getArea(width, length, unit = 'sq ft') {
   const area = width * length;
   return `${area} ${unit}`;
 }
