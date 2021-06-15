@@ -16,6 +16,7 @@ let correctAnswers = 0;
       - If the response matches the answer, the number of correctly
         answered questions increments by 1
 */
+
 for ( let i = 0; i < questions.length; i++ ) {
   let question = questions[i][0];
   let answer = questions[i][1];
